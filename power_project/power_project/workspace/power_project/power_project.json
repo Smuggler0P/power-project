@@ -1,0 +1,38 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"FVS5kUI2_P\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Power Project</span>\",\"col\":12}},{\"id\":\"CG0OmrLTUx\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Modules</b></span>\",\"col\":12}},{\"id\":\"AgZtBMlEvO\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Document Management\",\"col\":3}}]",
+ "creation": "2024-08-31 19:40:09.019714",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "clap",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Power Project",
+ "links": [],
+ "modified": "2024-08-31 19:41:30.437391",
+ "modified_by": "Administrator",
+ "module": "Power Project",
+ "name": "Power Project",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 39.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Document Management",
+   "link_to": "Document Management",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Power Project"
+}

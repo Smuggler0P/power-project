@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{doc_name}-{#####}",
+ "creation": "2024-08-31 18:28:14.958723",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_iqhs",
+  "doc_name",
+  "date_and_time",
+  "company",
+  "document_description",
+  "column_break_aaxd",
+  "attach_document",
+  "document_type",
+  "document_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_iqhs",
+   "fieldtype": "Section Break",
+   "label": "Document Details"
+  },
+  {
+   "fieldname": "doc_name",
+   "fieldtype": "Data",
+   "label": "Document Name",
+   "no_copy": 1,
+   "options": "Document Management",
+   "print_hide": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "attach_document",
+   "fieldtype": "Attach",
+   "label": "Attach Document"
+  },
+  {
+   "fieldname": "date_and_time",
+   "fieldtype": "Datetime",
+   "label": "Date and Time",
+   "read_only": 1
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "remember_last_selected_value": 1
+  },
+  {
+   "fieldname": "document_type",
+   "fieldtype": "Select",
+   "label": "Document Type",
+   "options": "\nPDF (Portable Document Format)\nDOC/DOCX (Microsoft Word Document)\nXLS/XLSX (Microsoft Excel Spreadsheet)\nPPT/PPTX (Microsoft PowerPoint Presentation)\nTXT (Plain Text File)\nCSV (Comma-Separated Values)\nHTML/HTM (HyperText Markup Language)\nRTF (Rich Text Format)\nZIP/RAR (Compressed Files)\nJPEG/PNG/GIF (Image Files)\nMP4/AVI/MOV (Video Files)\nMP3/WAV (Audio Files)\nJSON/XML (Data Exchange Formats)"
+  },
+  {
+   "fieldname": "document_description",
+   "fieldtype": "Long Text",
+   "label": "Document Description"
+  },
+  {
+   "fieldname": "document_status",
+   "fieldtype": "Select",
+   "label": "Document Status",
+   "options": "\nDraft\nSubmitted\nCancelled\nCompleted\nPending\nApproved\nRejected\nIn Progress\nOn Hold\nOverdue\nOpen\nClosed\nPartially Completed\nDelivered\nPaid\nExpired\nCancelled and Replaced\nReturned"
+  },
+  {
+   "fieldname": "column_break_aaxd",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-06 12:47:59.382407",
+ "modified_by": "Administrator",
+ "module": "Power Project",
+ "name": "Power Document",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
